@@ -1,4 +1,4 @@
-FROM node:12.22-buster
+FROM custom-base-juice-shop:1.0
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
