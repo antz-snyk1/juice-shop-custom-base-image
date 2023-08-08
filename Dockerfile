@@ -1,4 +1,4 @@
-FROM custom-base-juice-shop:1.1.0
+FROM custom-base-juice-shop:1.2.0
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
